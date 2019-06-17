@@ -34,6 +34,7 @@ namespace CRM_Ext
             {
                 var string s = "";
 
+
                 Context = cx,
                 TemplateFileSource = AspxSource.Storage,
                 Format = ReportResultFormat.PDF,
