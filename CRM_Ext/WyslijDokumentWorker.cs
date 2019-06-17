@@ -27,7 +27,7 @@ namespace CRM_Ext
 
         //z Contextu wyciągnięcie potrzebnych informacji
 
-        [Action("Wyślij dokument", Priority = 0, Target = ActionTarget.ToolbarWithText)]
+        [Action("Test github", Priority = 0, Target = ActionTarget.ToolbarWithText)]
         public object StartPDF(Context cx)
         {
             return new ReportResult
